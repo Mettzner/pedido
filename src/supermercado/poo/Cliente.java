@@ -1,16 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package supermercado.poo;
 
-/**
- *
- * @author CEDUP16
- */
+
 public class Cliente {
-    private String nome;
+    String nome;
     private String CPF;
     private String Telefone;
 
@@ -49,9 +41,5 @@ public class Cliente {
     
     Cliente(String nome, int idade, String cpf, String Telefone){
     
-    }
-
-    Cliente() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

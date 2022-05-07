@@ -1,40 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package supermercado.poo;
 
-/**
- *
- * @author CEDUP16
- */
+
 public class SupermercadoPOO {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        final Cliente clienteJão = new Cliente();
-        clienteJão.nome = "Jão";
-        clienteJão.CPF = "958743587";
-        clienteJão.Telefone = "Jão";
-        clienteJão.idade = 1;
+        /*final Cliente clienteSilva = new Cliente();
+        clienteSilva.nome = "Jão";
+        clienteSilva.CPF = "958743587";
+        clienteSilva.Telefone = "Jão";
+        clienteSilva.idade = 1;
         
         final Produto produtoPao = new Produto();
         
-        
-        final Produto produtoSal = new Produto();
+        final Produto produtoSal = new Produto();;;;
         produtoSal.nome = "sal";
-        produtoSal.qnt_estoque = 4;
+        produtoSal.qntEstoque = 4;
         produtoSal.valor = 5.00;
         produtoPao.alterarpreco(10.00);
-         
          
         final Pedido pedidoFinal = new Pedido();
         pedidoFinal.codigo = "1";
         pedidoFinal.cliente = clienteJão;
-        pedidoFinal.produtos = new Produto[] {produtoSal};
-    
+        pedidoFinal.produtos = new Produto[] {produtoSal};*/
+        final Cliente clienteSilva = new Cliente(Silva, 123.123.132-12, 99 99999999S;
+        
+        
 }
 }
