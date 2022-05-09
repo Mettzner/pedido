@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package supermercado.poo;
+package exercícios;
 
 import java.util.Arrays;
 
@@ -11,26 +11,27 @@ import java.util.Arrays;
  *
  * @author CEDUP16
  */
-public class Pedido {
+public class pedido {
 
     private String codigo;
     private Produto[] produtos;
     private Cliente cliente;
-
     
+
     public void adicionarProduto(Produto novoProduto) {
         this.produtos = Arrays.copyOf(this.produtos, this.produtos.length + 1);
         this.produtos[this.produtos.length - 1] = novoProduto;
 
     }
+
     public double valorTotal() {
         double somaTotal = 0;
         for (int i = 0; i < this.produtos.length; i++) {
-            somaTotal = somaTotal + this.produtos[i].valor;
+            somaTotal = somaTotal + this.produtos[i].getValorProduto();
         }
- 
- return somaTotal;  
-}
+
+        return somaTotal;
+    }
 
     public String getCodigo() {
         return codigo;
@@ -55,7 +56,5 @@ public class Pedido {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
- 
- 
- 
+
 }
